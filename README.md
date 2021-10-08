@@ -1,2 +1,2 @@
 # yatube
-Social
+Учебный проект на Django
