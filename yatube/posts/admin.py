@@ -4,7 +4,7 @@ from .models import Post
 
 # Register your models here.
 class PostAdmin(admin.ModelAdmin):
-    list_display = ("text", "pub_date", "author")
+    list_display = ("pk", "text", "pub_date", "author")
     search_fields = ("text",)
     list_filter = ("pub_date",)
     empty_value_display = "-пусто-"  # это свойство сработает для всех колонок: где пусто - там будет эта строка
